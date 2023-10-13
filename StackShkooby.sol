@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "./interfaces/IERC20.sol";
+import "./IERC20.sol";
 import "./store.sol";
 
 contract stackShkooby is store, AccessControl, ReentrancyGuard {
